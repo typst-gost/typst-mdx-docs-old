@@ -55,17 +55,17 @@ This allows the model to act as a **smart editor**, applying changes only where 
 
 1.  **Install dependencies:**
     ```
-    pip install -r requirements.txt
+    uv sync
     ```
 
 2.  **Build documentation JSON files (Fetcher):**
     ```
-    python scripts/fetch_json.py
+    uv run scripts/fetch_json.py
     ```
 
 3. **Convert to MDX (Parser):**
     ```
-    python scripts/parse_docs.py
+    uv run scripts/parse_docs.py
     ```
 
 ### Integration (via tiged) - WIP

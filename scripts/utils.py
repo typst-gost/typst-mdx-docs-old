@@ -1,6 +1,7 @@
 import subprocess
 from pathlib import Path
-from git import Optional, RemoteProgress
+from typing import Optional
+from git import RemoteProgress
 from rich.progress import Progress, TextColumn, BarColumn, FileSizeColumn, TransferSpeedColumn, TimeRemainingColumn, SpinnerColumn
 from loguru import logger
 

@@ -5,3 +5,6 @@ dist/
 # python
 .venv/
 __pycache__/
+
+# uv
+.uv/
